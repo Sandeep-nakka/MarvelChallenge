@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Challenge Suite">
+	<test name="Marvel Test">
+		<classes>
+			<class name="com.marvel.tests.Charactertest"></class>
+			<class name="com.marvel.tests.EventsTest"></class>
+			<class name="com.marvel.tests.StoryTest"></class>
+		</classes>
+	</test>
+</suite>
